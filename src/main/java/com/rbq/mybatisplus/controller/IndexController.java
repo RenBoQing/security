@@ -14,6 +14,7 @@ public class IndexController {
     public String hello() {
         System.out.println("测试数据");
         System.out.println("测试数据测试仪");
+        System.out.println("测试数据很好言");
         return "Hello World";
     }
 }
