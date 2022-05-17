@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
     @GetMapping("/hello")
     public String hello() {
+        System.out.println("测试数据");
         return "Hello World";
     }
 }
