@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
  * @Description MybatisPlusConfig  分页插件
  */
 @Configuration
-// 添加包扫表
+// 添加包扫表 使用相关配置
 @MapperScan("com.rbq.mybatisplus.mapper")
 public class MybatisPlusConfig {
     /*
