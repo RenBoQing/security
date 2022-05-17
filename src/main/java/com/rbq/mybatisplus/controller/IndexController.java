@@ -13,6 +13,7 @@ public class IndexController {
     @GetMapping("/hello")
     public String hello() {
         System.out.println("测试数据");
+        System.out.println("测试数据测试仪");
         return "Hello World";
     }
 }
