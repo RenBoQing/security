@@ -17,6 +17,6 @@ public class Product {
     private Long id;
     private String name;
     private Integer price;
-    @Version
+    @Version  // 版本控制
     private Integer version;
 }
