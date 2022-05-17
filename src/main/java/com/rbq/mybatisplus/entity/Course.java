@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * @author RenBoQing
  * @date 2022年05月14日 16:01
- * @Description
+ * @Description  课程实体类
  */
 @Data
 @AllArgsConstructor
